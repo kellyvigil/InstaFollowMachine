@@ -1,0 +1,45 @@
+
+
+
+class InstaBot {
+
+  String name;
+  int number;
+
+  InstaBot( String name, int number ) {
+    this.name = name;
+    this.thing = number;
+  }
+
+  boolean followGuy( int guyID ) {
+      // do stuff
+  }
+
+}
+
+
+
+
+
+
+
+
+InstaBot[] myBots = new InstaBot[32];
+
+for(int i = 0; i < 32; i++)
+  myBots[i] = new InstaBot( "name" + i, i );
+
+
+while(true) {
+
+  hasWork = whatever.whatever();
+
+  if (hasWork) {
+
+  }
+
+  for(int i = 0; i < 32; i++) {
+    myBots[i].followGuy();
+  }
+
+}
